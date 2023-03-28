@@ -1,0 +1,53 @@
+2023-03-23T00:00:41+00:00 CRITICAL Uncaught Exception:  subcript_period parameter must be integer in SwpmUtils::calculate_subscription_period_days method in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php:59
+Stack trace:
+#0 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php(82): SwpmUtils::calculate_subscription_period_days('', '')
+#1 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php(90): SwpmUtils::get_expiration_timestamp(Object(stdClass))
+#2 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(187): SwpmUtils::is_subscription_expired(Object(stdClass))
+#3 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(122): SwpmAuth->check_constraints()
+#4 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(30): SwpmAuth->authenticate()
+#5 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(37): SwpmAuth->init()
+#6 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-init-time-tasks.php(33): SwpmAuth::get_instance()
+#7 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.simple-wp-membership.php(748): SwpmInitTimeTasks->do_init_tasks()
+#8 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(308): SimpleWpMembership->init_hook('')
+#9 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-settings.php(617): do_action('init')
+#12 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-config.php(93): require_once('C:\\Users\\ValVKo...')
+#13 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-load.php(50): require_once('C:\\Users\\ValVKo...')
+#14 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-blog-header.php(13): require_once('C:\\Users\\ValVKo...')
+#15 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\index.php(17): require('C:\\Users\\ValVKo...')
+#16 {main}
+  thrown in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php on line 59
+
+2023-03-23T00:00:51+00:00 CRITICAL Uncaught Exception:  subcript_period parameter must be integer in SwpmUtils::calculate_subscription_period_days method in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php:59
+Stack trace:
+#0 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php(82): SwpmUtils::calculate_subscription_period_days('', '')
+#1 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php(90): SwpmUtils::get_expiration_timestamp(Object(stdClass))
+#2 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(187): SwpmUtils::is_subscription_expired(Object(stdClass))
+#3 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(122): SwpmAuth->check_constraints()
+#4 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(30): SwpmAuth->authenticate()
+#5 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-auth.php(37): SwpmAuth->init()
+#6 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-init-time-tasks.php(33): SwpmAuth::get_instance()
+#7 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.simple-wp-membership.php(748): SwpmInitTimeTasks->do_init_tasks()
+#8 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(308): SimpleWpMembership->init_hook('')
+#9 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#10 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-settings.php(617): do_action('init')
+#12 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-config.php(93): require_once('C:\\Users\\ValVKo...')
+#13 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-load.php(50): require_once('C:\\Users\\ValVKo...')
+#14 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-blog-header.php(13): require_once('C:\\Users\\ValVKo...')
+#15 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\index.php(17): require('C:\\Users\\ValVKo...')
+#16 {main}
+  thrown in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php on line 59
+
+2023-03-23T01:44:35+00:00 CRITICAL Uncaught Exception:  subcript_period parameter must be integer in SwpmUtils::calculate_subscription_period_days method in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php:59
+Stack trace:
+#0 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php(82): SwpmUtils::calculate_subscription_period_days('', '')
+#1 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-cronjob.php(30): SwpmUtils::get_expiration_timestamp(Object(stdClass))
+#2 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(308): SwpmCronJob->update_account_status()
+#3 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#5 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-cron.php(188): do_action_ref_array('swpm_account_st...', Array)
+#6 {main}
+  thrown in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php on line 59
+

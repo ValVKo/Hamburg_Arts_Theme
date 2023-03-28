@@ -1,0 +1,11 @@
+2023-03-20T01:54:22+00:00 CRITICAL Uncaught Exception:  subcript_period parameter must be integer in SwpmUtils::calculate_subscription_period_days method in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php:59
+Stack trace:
+#0 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php(82): SwpmUtils::calculate_subscription_period_days('', '')
+#1 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-cronjob.php(30): SwpmUtils::get_expiration_timestamp(Object(stdClass))
+#2 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(308): SwpmCronJob->update_account_status()
+#3 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#5 C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-cron.php(188): do_action_ref_array('swpm_account_st...', Array)
+#6 {main}
+  thrown in C:\Users\ValVKo\Local Sites\hamburg-area-arts-alliance\app\public\wp-content\plugins\simple-membership\classes\class.swpm-utils.php on line 59
+
